@@ -1,0 +1,29 @@
+7
+Pz1
+As you walk into this room it begins to rain. You feel a slight tingle as the drops hits your skin. 	
+A sign reads What goes up when rain comes down? 	
+Umbrella 
+Pz2 	
+The amazing look of the room takes your breath away! 	
+I'm as light as a feather but the strongest of people cannot hold me for over a minute. What am I? 	
+Breath 
+Pz3 	
+There is writing engraved on the concrete wall with a stick of burnt chalk hanging from a string and nail. Underneath is a clean, almost perfectly flat portion.  	
+A sign reads feed me and I live, yet give me a drink and I die 	
+Fire 
+Pz4 	
+There is a three-pronged candle holder that stands and .... I need more sleep at night. 	
+A trident stands in the room with 3 candles on each end waiting to be lit. 	
+USE Sword  
+Pz5 	
+A mysterious sign next to a row of seven switches reads Remember that one card... 	
+There are seven switches that can be turned on or off in this room. 	
+Off,Off,On,Off,Off,On,On
+Pz6	
+A mysterious, cloudy green orb sits on a fancy velvet cushion in the middle of the room. 	
+Picking up the orb locks the doors and prevents the player from leaving the room. 	
+pick up the orb and drop it
+Pz7 	
+Etched on the wall is a giant letter T and it is oozing brown liquid almost as if it were tea. 
+A sign reads What is filled with me, begins with me, and also ends with me 
+Teapot 
