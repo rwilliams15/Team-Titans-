@@ -1,0 +1,128 @@
+42
+D1 
+A rotting wooden door oozes blood through its cracks 
+S1,B1 
+D2
+A steel door with a peep hole 
+B1,P1
+D3 
+A door made of several sticks of bamboo 
+P1,I1 
+D4
+A door with a slight feeling of achievement 
+I1,B2  
+D5
+A door made of teddy bears, yes teddy bears yet you cannot just walk through 
+B2,P2  
+D6
+A door with a simple mirror on it yet you do not see your reflection 
+P2,I2 
+D7
+A door made of jewels 
+I2,B3  
+D8
+A door made of chains 
+B3,P3 
+D9 
+A glowing red door that is quite hot to the touch 
+P3,I3 
+D10
+A door that seems to have been punched one too many times 
+I3,B4
+D11
+A door with the smell of the ocean breeze 
+B4,P4 
+D12 
+A door with the aroma of flowers in a field 
+P4,I4
+D13	
+A door with pancakes, hotdogs, french fries...man im hungry 
+I4,B5
+D14 	
+A door of stacked empty plates 
+B5,P5 	 
+D15 	
+A door made of grandfather clocks 
+P5,I5 
+D16 	
+A door with several keys from a keyboard yet they do nothing 
+I5,B6 	
+D17 	
+A simple door … haven't seen many of these 
+B6,P6 	
+D18 	
+A door which seems to be moving on its own 
+P6,I6 	
+D19 
+A door with a huge dollar sign on it 
+I6,B7  
+D20 	
+A door made of coins!!! 
+B7,P7 	
+D21 	
+A completely black door  
+P7,A4 	 
+D22 	 
+A completely black door 	
+L1,A4 
+D23 
+A completely black door 
+P1,A4 	 
+D24 	
+A completely black door 
+P1,A5 	
+D25	
+A completely black door 
+L1,A5	
+D26 
+A completely black door 
+P2,A5 	
+D27 	
+A completely black door 
+P2,A6 	
+D28 	
+A completely black door 
+L1,A6 	
+D29 	
+A completely black door 
+P3,A6 	
+D30 	
+A completely black door 
+P3,A7 	
+D31 	
+A completely black door 
+L1,A7 
+D32 	
+A completely black door 
+P4,A7 	
+D33 	
+A completely black door 
+P4,A1 	 
+D34 	
+A completely black door 
+L1,A1 	
+D35 	
+A completely black door 
+P5,A1 	
+D36 	
+A completely black door 
+P5,A2 	
+D37 	
+A completely black door 
+L1,A2  
+D38 	
+A completely black door 
+P6,A2 	
+D39	
+A completely black door 
+P6,A3	
+D40 	
+A completely black door 
+L1,A3 	
+D41 	
+A completely black door 
+P7,A3 	
+D42 	
+A rainbow colored door … cheerful... yet you feel unease as you approach it... 
+L1,B8 
+

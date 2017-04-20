@@ -1,0 +1,128 @@
+30
+L1
+The Library 
+The room is packed with dusty bookshelves, all of them empty. There is a table with a single chair and a book on it called “Soul Mortality”. There are seven obvious exits lining the edges of the room, and a locked trapdoor in the middle. 
+A1,A2,A3,A4,A5,A6,A7,B8 
+B4
+Wrath’s Lair 
+The walls are blackened with old smoke. Scattered around the room are piles of ashes spread out around a central spiraling pillar in the middle of the room. 
+I3, P4
+S1 
+Secret Room
+After going through the secret door you discover a dimly lit room with a treasure chest in the middle. 
+B1
+B1 
+Sloth’s Bedroom  
+You find yourself on an unfamiliar bed with a strange scent of burnt rubber pervading through the air. The lights from the ceiling brightly illuminate the furnishings, but the black walls seem to absorb the brightness and make the room gloomier than it otherwise would be. The wooden floor seems dusty except for a single footprint leading to the corner of the room. 
+S1, P1 
+P1 
+Anteroom 
+The floor seems more frequented here, with the dust limited to the corners of the room and away from the exits. You hear a scream from somewhere in the distance. The light stretches your shadow into a thin line. 
+B1, I1, A4, A5 
+I1
+Grassland 
+You walk through the doorway and find yourself in an open field... that seems to stop short at the dimensions of the room, not with any clearly defined walls but with the grass just cutting off and the blue sky translated into blank whiteness. Touching the wall, or lack of, makes your hand feel a little disconnected and you decide not to do it again. The sun seems to be just off screen, and another doorway lies at the other side of the field. 
+P1, B2 
+B2 
+Envy’s Domain 
+White long tables with missing tablecloths fill the room with plates, silver and glassware lining every corner. Windows with missing draperies reveal a great open field, blinding sunlight flooding the room. Leading upwards and towards the back stands a throne, missing cushions. There looks to be a door on the wall behind the throne, missing an exit sign. 
+I1, P2 
+P2 
+Maze 
+The walls appear to be made of concrete, leading to winding and branching pathways to the other sides of the room. It feels easy to get turned around but you manage to keep your sense of direction. 
+B2, I2, A5, A6 
+I2 
+Maize 
+The walls appear to be made of corn, almost hiding the other exit from sight. 
+P2, B3 
+B3 
+Pride’s Castle 
+This room feels a lot bigger than the others, with a long, red carpet leading into the foyer of a grand old castle. Generic portraits of royalty line the walls with faces that all seem to strangely resemble the Mona Lisa. Staircases wind up to third and fourth floors with an excessive amount of bathrooms including automatic sinks, soap and towel dispensers. The throne room is much more plain and simple with an elegant chair at the back of it. 
+[Until the user picks it up,] there is a mirror here with a dusty cloth on it. 
+I2, P3 
+P3 
+Hot Pocket
+You notice the heat pricking sweat from your skin, making the air feel tighter than before. There is writing engraved on the concrete wall with a stick of burnt chalk hanging from a string and nail. (Try reading the sign.) Underneath is a clean, almost perfectly flat portion like a chalk board. 
+B3, I3, A6, A7 
+I3 
+Boiler Room
+The heat is almost overwhelming and the air seems to wave above two boiler tanks, lined with short staircases to make access easier. The wall is adorned with various gauges to measure steam pressure and water column level, among other things. The floor is stitched with an iron cross texture, each footstep making an uncomfortable clang that echoes throughout. Burn marks line the edges of the exit to the next room. 
+P3, B4 
+P4 
+Meditation
+The room is dimly lit by a fluorescent blue light that gives an atmosphere of a save point or a romantic dinner, but you can save anywhere. There is a three-pronged candle holder that stands at the back of the room. (Try look puzzle or look trident.) 
+Look puzzle / look trident - A trident stands in the room with 3 candles on each end, waiting to be lit. 
+B4, I4, A1, A7 
+I4 
+Introspection   
+The lights are brighter here, with mirrors lining the walls and a metallic floor reflecting the sound of every step you make. The endless reflection of the mirrors on themselves, only interrupted by your figure and the image of two doors, echo endlessly back and forth until the room seems to be tinted an uncomfortable green. 
+P4, B5 
+B5 
+Gluttony’s Boudoir 
+The room is adorned with rococo-style furnishings, with an intricately designed wardrobe. Comfortable chairs are covered with white, tan, brown and cream stripes and a reclining couch with a table are lined with empty plates. 
+I4, P5 
+P5 
+Watchmaker's room  
+There are black and silver gears lining the wall with pulleys connected to 7 switches that can be turned on or off lining the room. Try "Flip switch [1-7]" and "look puzzle" to see the current state of the switches. 
+B5, I5, A1, A2 
+I5
+Clocktower 
+The watchmaker left a long time ago but the clocks displayed around the room and wall all seem to be running smoothly, although each of them display a different time and at least one is running backwards. 
+P5, B6 
+B6 
+Lust’s Cubicle 
+The room is subdivided into smaller sections with mini-walls. In the biggest cubicle is a mahogany desk lined with poorly hidden graphic magazines under office reports. In the middle of the desk is a large computer angled away from any entrance or exit to the room so no one accidentally sees something they don’t want to see. 
+I5, P6 
+P6 
+Stagnation
+A stone grey pedestal with intricate carvings stands farther back. The carpeted floor seems to be clean enough except for some spider webs in the corner.  
+There is a bag of gold coins on the pedestal. [GET bag or GET gold should pick this up] 
+B6, I6, A2, A3 
+I6 
+Movement
+A strong wind blows through the room, pushing past your skin and spinning colorful toy pinwheels that are scattered throughout. 
+P6, B7 
+B7 
+Greed’s Palace  
+A stone grey pedestal with intricate carvings stands in the back of the room, identical to one you saw earlier. The room is filled with colorful toys and the air feels like it is being sucked out through the entrance you came from. 
+I6, P7 
+P7 
+Temptation
+A mysterious, cloudy green orb sits on a fancy velvet cushion in the middle of the room. 
+[Picking up the orb locks the doors until the player drops the orb.] 
+B7, A3, A4 
+A1
+Access 
+Terminal Chas-tity 
+You enter the access way. The walls are completely white and even the mud on your boots don’t stain the floor here. 
+P5, P4, L1 
+A2 
+Access Terminal Temperance 
+You enter the access way and it seems to lead you outdoors. A grassy field and a stream of water lead you to the other exits. 
+P5, P6, L1 
+A3 
+Access Terminal Charity 
+You enter the access way. The floor glows with a golden aura that makes your body feel warm like soup on a cold winter day. 
+P6, P7, L1 
+A4
+Access Terminal Diligence 
+You enter the access way and find yourself in an airport terminal filled with conveyors to make the transportation of luggage much faster. Also, it beats walking. 
+P7, P1, L1 
+A5 
+Access Terminal Patience 
+You enter the access way and find yourself in a doctor’s office… in the waiting room, filled with empty chairs and a fake potted plant. 
+You don’t have any reason to wait here, though. 
+P1, P2, L1 
+A6 
+Access Terminal Kindness 
+You enter the access way and suddenly it’s Christmas. Ornamented pine trees line the path with a cold winter snow surrounding empty gift boxes. 
+P2, P3, L1 
+A7 
+Access Terminal Humility 
+You enter the access way, leading into someone’s very minimal apartment. Instead of a couch is an unpacked box of books, and a clipboard instead of a coffee table. The carpeted floor could use a vacuum cleaner. 
+P3, P4, L1 
+B8
+Darkness 
+It's impossible to make out the walls, ceiling, and floor in the sudden darkness but you clearly see a figure striding towards you. 
+L1 
+
