@@ -1,16 +1,18 @@
 package Model;
 import java.io.File;
 import java.util.Scanner;
-//import View. View Class; 
+import View. ViewClass; 
 
 /* Maryam Najiarani
- * this is the puzzle class that will generate random questions to the user 
- * check the answer from the user
+ * this is the puzzle class that will generate puzzle questions to the user 
+ * each puzzle is related to the specific room 
+ * read related contents 
  */
 public class Puzzle {
 
+	ViewClass view = new ViewClass();
 	
-	private int roomId ;
+	private String roomId ;
 	
 	private String description ;
 	private String puzzleID ;
@@ -18,9 +20,9 @@ public class Puzzle {
 	private String answer ;
 	
 
-	public Puzzle( int roomID )
+	public Puzzle( String roomId )
 	{
-		this.roomId = roomID ;
+		this.roomId = roomId ;
 	}
 	
 	
@@ -28,34 +30,60 @@ public class Puzzle {
 	{
 		
 		String fileName ;
-		String s ;
+		String str ;
 		
 		
 		try{
 			
-			fileName = "Puzzle" + Integer.toString(roomId) + ".txt" ;	
+			fileName = "Puzzle1.txt" ;	
 			File puzzleFile = new File(fileName);
 			Scanner fileReader = new Scanner(puzzleFile);	
 			
 			
 			//read how many items are in the puzzle file
-			s = fileReader.nextLine() ;
-			int itemCount = Integer.parseInt(s) ;  
+			str = fileReader.nextLine() ;
+			//int itemCount = Integer.parseInt(str) ;  
 			
 			
-			// select an item number by random
-			int item = 1 + (int)Math.floor(  Math.random() * itemCount ) ;
+			// select a puzzle number based on the rooms
+			// 1 + (int)Math.floor(  Math.random() * itemCount ) ;  New code to specify each puzzle to specific room 
+			int item = 1;
 			
-			// skip all items before reaching the selected item
+			 switch (roomId) {
+	         case "P1": 
+	             item = 1;
+	             break;
+	         case "P2": 
+	             item = 2;
+	             break;
+	         case "P3": 
+	             item = 3;
+	             break;
+	         case "P4": 
+	             item = 4;
+	             break;
+	         case "P5": 
+	             item = 5;
+	             break;
+	         case "P6": 
+	             item = 6;
+	             break;
+	         case "P7": 
+	             item = 7;
+	             break;
+			 }
+	             
+	             
+			// skip all puzzles before reaching the selected puzzles
 			for( int i=0; i<item-1 ; i++)
 			{
-				String s1 = fileReader.nextLine();
-				String s2 = fileReader.nextLine();
-				String s3 = fileReader.nextLine();
-				String s4 = fileReader.nextLine();
+				String str1 = fileReader.nextLine();
+				String str2 = fileReader.nextLine();
+				String str3 = fileReader.nextLine();
+				String str4 = fileReader.nextLine();
 			}
 			
-			// read content of the selected item
+			// read content of the selected Puzzle
 			this.puzzleID = fileReader.nextLine();
 			this.description = fileReader.nextLine(); 
 			this.problem = fileReader.nextLine();
@@ -63,7 +91,7 @@ public class Puzzle {
 			
 			fileReader.close();
 			return true ;
-		}
+			 }
 		
 		catch( Exception e)
 		{
