@@ -42,7 +42,7 @@ public class GameController
 	{
 		String name = UserInput.getString("please enter user name") ;
 		String password = UserInput.getString("please enter password") ;
-		CharacterStat stat = new CharacterStat(100,20,5,1) ;
+		CharacterStat stat = new CharacterStat(200,50,40,15) ;
 		player = new Player( name, password, "L1", stat) ;
 		
 		// now open the door which are open initially for each user
@@ -439,7 +439,7 @@ public class GameController
 		while( player.getStats().getHP()>0 )
 		{
 			ViewClass.print("Player HP : " +  player.getStats().getHP() + " Monster HP : " + monster.getStats().getHP() );
-			String response = UserInput.getString("What do you want to do ? (1. Attack, 2. Use Inventory 3. Escape") ;
+			String response = UserInput.getString("What do you want to do ? ( 1. Attack, 2. Use Inventory 3. Escape )") ;
 			
 			if( response.equalsIgnoreCase("attack") || response.equalsIgnoreCase("1") )
 				monster = handlePlayerAttack(monster) ;
