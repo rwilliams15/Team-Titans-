@@ -1,5 +1,10 @@
 package Model;
-
+/*
+ * Author Maryam Najiarani
+ * 
+ * this class is define the array list of the door and connected hem to the specific room
+ * 
+ */
 import java.io.File;
 import java.util.ArrayList;
 import java.util.Scanner;
@@ -16,9 +21,34 @@ public class DoorManager
 	public void setDoorList(ArrayList<Door> doorList) {
 		this.doorList = doorList;
 	}
+	
+	public Door getDoor(int i)
+	{
+		return doorList.get(i) ;
+	}
+	public int getDoorCount()
+	{
+		return doorList.size() ;
+	}
+	
 	public DoorManager()
 	{
 		doorList = new ArrayList<Door>(); 
+	}
+	
+	public String getDoorID( String room1, String room2)
+	{
+		for( int i=0; i< doorList.size() ; i++)
+		{
+			Door door  = doorList.get(i) ;
+			if( door.getConnectedRoomId1().equalsIgnoreCase(room1) &&  door.getConnectedRoomId2().equalsIgnoreCase(room2))
+				return door.getDoorID() ;
+			
+			if( door.getConnectedRoomId2().equalsIgnoreCase(room1) &&  door.getConnectedRoomId1().equalsIgnoreCase(room2))
+				return door.getDoorID() ;
+			
+		}
+		return null ;
 	}
 	//It load the door 
 	public boolean LoadDoors( String fileName )
@@ -46,7 +76,9 @@ public class DoorManager
 				String description = fileReader.nextLine();
 
 				// make new doors and add them to the ArrayList
-				Door door = new Door(doorID, connectedRoomId1, connectedRoomId2, description, false) ;
+				
+				
+				Door door = new Door(doorID.trim(), connectedRoomId1.trim(), connectedRoomId2.trim(), description.trim(), false) ;
 				doorList.add(door) ;
 			}
 

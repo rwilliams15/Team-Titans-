@@ -1,24 +1,14 @@
 package View;
-
-import java.util.Scanner;
-
+/*
+ * Author Maryam Najiarani
+ * 
+ * Print the text to the users
+ */
 public class ViewClass {
 
-	private Scanner input;
-
-	
-	public ViewClass()
+	public static void print(String str)
 	{
-		input = new Scanner(System.in);
-	}
-	
-	public void Display(String d)
-	{
-		System.out.println(d);
+		System.out.println(str);
 	}
 
-	public String getResponse()
-	{
-		return input.nextLine();
-	}
 }

@@ -1,8 +1,10 @@
 package Model;
 import View.ViewClass;
+
 /* Maryam Najiarani
  * This is the Room class that will contains the Rooms 
  * will give Id, description, name and the exit to the Room manager class 
+ * generates the Library L1 as a first class and B8 as a last class
  */
 public class Room {
 
@@ -36,6 +38,22 @@ public class Room {
 	public void setExit(String exit) {
 		this.exit = exit;
 	}
+	
+	public int getRoomNumber()
+	{
+		if( roomId.length()!=2)
+			return 0 ;
+		
+		return Integer.parseInt( roomId.substring(1)) ;
+	}
+	
+	public char getRoomType()
+	{
+		if( roomId.length()!=2)
+			return 0 ;
+		
+		return roomId.charAt(0);
+	}
 
 	public Room(String roomId, String name, String description, String exit)
 	{
@@ -66,5 +84,11 @@ public class Room {
 		return exit;
 	}
 	
+	
+	public void display()
+	{
+		ViewClass.print("roomID : " +  getRoomId() + "  room Name : " + getName());
+		ViewClass.print(getDescription()) ;
+	}
 
 }

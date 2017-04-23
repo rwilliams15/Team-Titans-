@@ -2,7 +2,7 @@ package Model;
 
 
 
-/* Maryam Najiarani
+/* Author Maryam Najiarani
  * 
  * this is the Door class that represents each door 
  * an arrayList of these door should be created in the game runner class
@@ -17,7 +17,7 @@ public class Door
 	private String description; 
 	private boolean isOpen; 
 
-	public Door(String doorID, String connctedRoomId1, String connectedRoom2, String description, boolean isOpen)
+	public Door(String doorID, String connectedRoomId1, String connectedRoomId2, String description, boolean isOpen)
 	{
 		setDoorID(doorID);
 		setConnectedRoomId1(connectedRoomId1); 

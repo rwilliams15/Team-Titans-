@@ -46,7 +46,12 @@ public class Puzzle {
 			
 			
 			// select a puzzle number based on the rooms
-			// 1 + (int)Math.floor(  Math.random() * itemCount ) ;  New code to specify each puzzle to specific room 
+			/*1 + (int)Math.floor(  Math.random() * itemCount ) ; 
+			 * 
+			 * 
+			//New code to specify each puzzle to specific room 
+			 * 
+			 */
 			int item = 1;
 			
 			 switch (roomId) {
@@ -84,10 +89,10 @@ public class Puzzle {
 			}
 			
 			// read content of the selected Puzzle
-			this.puzzleID = fileReader.nextLine();
-			this.description = fileReader.nextLine(); 
-			this.problem = fileReader.nextLine();
-			this.answer = fileReader.nextLine();
+			this.puzzleID = fileReader.nextLine().trim();
+			this.description = fileReader.nextLine().trim(); 
+			this.problem = fileReader.nextLine().trim();
+			this.answer = fileReader.nextLine().trim();
 			
 			fileReader.close();
 			return true ;

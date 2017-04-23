@@ -1,0 +1,28 @@
+9
+I1
+Sword of Diligence
+A shining sword that seems like it could accomplish anything. It has a strange diamond shaped carving on the pommel.
+I2
+Key of Chest
+It's just a smartphone... with an app to unlock anything!
+I3
+Scroll of Defense
+Holding this makes you feel like you could be hit with a bus and just keep going.
+I4
+Shield of Abundance
+This shield looks like it should be way heavier than it is for its size.
+I5
+Boots of Agile
+A pair of boots adorned with a software development methodology that makes it easier to dodge attacks.
+I6
+Necklace of Virtue
+A small, crystal blue orb hanging on thin chain. Putting it on seems to steady your breathing and bring clarity to your vision.
+I7
+Elixir of Faded Mortality
+A dull red liquid in a corked test tube that bubbles with the essence of life. Restores 20 HP.
+I8
+Elixir of Mortality
+A bright red potion in a corked test tube that looks like it might be boiling, but it feels like room temperature. Restores 40 HP.
+I9
+Elixir of Greater Mortality
+A vivid, glowing scarlet potion in a test tube that restores 60 HP.

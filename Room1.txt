@@ -37,8 +37,7 @@ The walls appear to be made of corn, almost hiding the other exit from sight.
 P2, B3 
 B3 
 Pride’s Castle 
-This room feels a lot bigger than the others, with a long, red carpet leading into the foyer of a grand old castle. Generic portraits of royalty line the walls with faces that all seem to strangely resemble the Mona Lisa. Staircases wind up to third and fourth floors with an excessive amount of bathrooms including automatic sinks, soap and towel dispensers. The throne room is much more plain and simple with an elegant chair at the back of it. 
-[Until the user picks it up,] there is a mirror here with a dusty cloth on it. 
+This room feels a lot bigger than the others, with a long, red carpet leading into the foyer of a grand old castle. Generic portraits of royalty line the walls with faces that all seem to strangely resemble the Mona Lisa. Staircases wind up to third and fourth floors with an excessive amount of bathrooms including automatic sinks, soap and towel dispensers. The throne room is much more plain and simple with an elegant chair at the back of it.[Until the user picks it up,] there is a mirror here with a dusty cloth on it. 
 I2, P3 
 P3 
 Hot Pocket
@@ -50,8 +49,7 @@ The heat is almost overwhelming and the air seems to wave above two boiler tanks
 P3, B4 
 P4 
 Meditation
-The room is dimly lit by a fluorescent blue light that gives an atmosphere of a save point or a romantic dinner, but you can save anywhere. There is a three-pronged candle holder that stands at the back of the room. (Try look puzzle or look trident.) 
-Look puzzle / look trident - A trident stands in the room with 3 candles on each end, waiting to be lit. 
+The room is dimly lit by a fluorescent blue light that gives an atmosphere of a save point or a romantic dinner, but you can save anywhere. There is a three-pronged candle holder that stands at the back of the room. (Try look puzzle or look trident.) Look puzzle / look trident - A trident stands in the room with 3 candles on each end, waiting to be lit. 
 B4, I4, A1, A7 
 I4 
 Introspection   
@@ -75,8 +73,7 @@ The room is subdivided into smaller sections with mini-walls. In the biggest cub
 I5, P6 
 P6 
 Stagnation
-A stone grey pedestal with intricate carvings stands farther back. The carpeted floor seems to be clean enough except for some spider webs in the corner.  
-There is a bag of gold coins on the pedestal. [GET bag or GET gold should pick this up] 
+A stone grey pedestal with intricate carvings stands farther back. The carpeted floor seems to be clean enough except for some spider webs in the corner.There is a bag of gold coins on the pedestal. [GET bag or GET gold should pick this up] 
 B6, I6, A2, A3 
 I6 
 Movement
@@ -88,12 +85,10 @@ A stone grey pedestal with intricate carvings stands in the back of the room, id
 I6, P7 
 P7 
 Temptation
-A mysterious, cloudy green orb sits on a fancy velvet cushion in the middle of the room. 
-[Picking up the orb locks the doors until the player drops the orb.] 
+A mysterious, cloudy green orb sits on a fancy velvet cushion in the middle of the room.[Picking up the orb locks the doors until the player drops the orb.] 
 B7, A3, A4 
 A1
-Access 
-Terminal Chas-tity 
+Access Terminal Chas-tity
 You enter the access way. The walls are completely white and even the mud on your boots don’t stain the floor here. 
 P5, P4, L1 
 A2 
@@ -110,8 +105,7 @@ You enter the access way and find yourself in an airport terminal filled with co
 P7, P1, L1 
 A5 
 Access Terminal Patience 
-You enter the access way and find yourself in a doctor’s office… in the waiting room, filled with empty chairs and a fake potted plant. 
-You don’t have any reason to wait here, though. 
+You enter the access way and find yourself in a doctor’s office… in the waiting room, filled with empty chairs and a fake potted plant.You don’t have any reason to wait here, though. 
 P1, P2, L1 
 A6 
 Access Terminal Kindness 

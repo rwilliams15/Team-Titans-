@@ -8,7 +8,7 @@ import java.util.Scanner;
  * it will load the rooms with the details related to each room
  */
 public class RoomManager {
-// Array of Rooms
+	// Array of Rooms
 	ArrayList<Room> roomList = null;
 	public RoomManager()
 	{
@@ -18,38 +18,39 @@ public class RoomManager {
 	//It load the room 
 	public boolean LoadRooms( String fileName )
 	{
-	try{
-			
+		try{
 
-        
+
+
 			File roomFile = new File(fileName);
 			Scanner fileReader = new Scanner(roomFile);	
-			
-			
+
+
 			//read how many items are in the Room file
 			String str = fileReader.nextLine() ;
 			int itemCount = Integer.parseInt(str) ;  
-			
-			
+
+
 
 			for( int i=0; i<itemCount ; i++)
 			{
-				
+
 				String roomID = fileReader.nextLine();
 				String name = fileReader.nextLine(); 
 				String description = fileReader.nextLine();
 				String exit = fileReader.nextLine();
 				// make new rooms and add them to the ArrayList
-				Room room = new Room(roomID, name, description, exit) ;
+				
+				Room room = new Room(roomID.trim(), name.trim(), description.trim(), exit.trim()) ;
 				roomList.add(room) ;
 			}
-			
+
 			// read content of the selected Room
-			
+
 			fileReader.close();
 			return true ;
 		}
-		
+
 		catch( Exception e)
 		{
 			return false ;
@@ -61,7 +62,7 @@ public class RoomManager {
 	public ArrayList<Room> getRoomList() {
 		return roomList;
 	}
-	
+
 	public int getRoomCount()
 	{
 		return roomList.size();
@@ -70,7 +71,20 @@ public class RoomManager {
 	{
 		return roomList.get(i) ;
 	}
-	
-	
-	
+	public Room getRoom(String roomID)
+	{
+		for (int i=0;i<roomList.size(); i++)
+		{
+			Room room = roomList.get(i) ;
+			//System.out.println(room.getRoomId());
+			if( room.getRoomId().equalsIgnoreCase(roomID))
+				return roomList.get(i) ;
+		}
+				
+			
+		return null ;	
+	}
+
+
+
 }
